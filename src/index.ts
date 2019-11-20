@@ -1,5 +1,5 @@
 import * as asyncHooks from 'async_hooks'
-import * as profiler from 'v8-profiler'
+import * as profiler from 'v8-profiler-node8'
 
 export interface Report {
   taskLength: number,
